@@ -9,11 +9,6 @@
     "email": "hashirshoaeb@gmail.com",
     "url": "https://github.com/hashirshoaeb"
   },
-  "engines": {
-    "node": ">=0.10.3 <14",
-    "npm": "~1.0.20"
-  },
-  "engineStrict": true,
   "dependencies": {
     "axios": "^0.24.0",
     "bootstrap": "^4.5.2",
