@@ -12,6 +12,7 @@
   "engines": {
     "node": ">=14"
   },
+  "engineStrict": true,
   "dependencies": {
     "axios": "^0.24.0",
     "bootstrap": "^4.5.2",
