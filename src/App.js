@@ -7,6 +7,7 @@ import {
   repos,
   leadership,
   skills,
+  languages,
   getInTouch,
   experiences
 } from "./editable-stuff/config.js";
@@ -16,6 +17,7 @@ import Project from "./components/home/Project";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Skills from "./components/home/Skills";
+import Languages from "./components/home/Languages";
 // import { Blog } from "./components/blog/Blog";
 // import BlogPost from "./components/blog/BlogPost";
 import GetInTouch from "./components/home/GetInTouch.jsx";
@@ -42,11 +44,10 @@ const Home = React.forwardRef((props, ref) => {
           resume={about.resume}
         />
       )}
-      {
-        experiences.show && (
-          <Experience experiences={experiences}/>
-        )
-      }
+      {experiences.show && (
+          <Experience experiences={experiences}
+        />
+      )}
       {repos.show && (
         <Project
           heading={repos.heading}
@@ -70,7 +71,14 @@ const Home = React.forwardRef((props, ref) => {
           softSkills={skills.softSkills}
         />
       )}
-      
+      {languages.show && (
+        <Languages
+          heading={languages.heading}
+          hardLanguages={languages.hardLanguages}
+          softLanguages={languages.softLanguages}
+        />
+      )}
+
     </>
   );
 });
