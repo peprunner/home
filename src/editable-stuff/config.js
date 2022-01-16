@@ -42,7 +42,7 @@ const about = {
   imageLink: require("../editable-stuff/photo.jpg"),
   imageSize: 375,
   message:
-    "My name is Giuseppe Andreetti. I’m a graduate of 17-18 A.Y. from La Sapienza University in Rome with a degree in Enginnering in Computer Science. Java and C++ Developer. I am specialized in Software Engineering and Data Science. Well-versed in numerous programming languages including Java, Python, JavaScript. During my free time I am interested in crypto and DeFi.",
+    "My name is Giuseppe Andreetti. I’m a graduate of 17-18 A.Y. from La Sapienza University in Rome with a degree in Enginnering in Computer Science. Java and C++ Developer. I am specialized in Software Engineering and Data Science. Well-versed in numerous programming languages including Java, Python, JavaScript. I am interested in crypto and DeFi.",
   resume: "https://drive.google.com/file/d/1XBCC1m9Bnf7in2trJ_KWGWtZWvVGFmiC/view?usp=sharing",
 };
 
